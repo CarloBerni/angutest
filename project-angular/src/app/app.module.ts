@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NewCmpComponent } from './new-cmp/new-cmp.component';
 import { ChangeTextDirective } from './change-text.directive';
+import { MyserviceService } from './myservice.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { ChangeTextDirective } from './change-text.directive';
       }
    ])
   ],
-  providers: [],
+  providers: [MyserviceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
