@@ -5,11 +5,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './new-cmp.component.html',
   styleUrls: ['./new-cmp.component.scss']
 })
+
+
 export class NewCmpComponent implements OnInit {
   newcomponent = "Bonjour je test Angular";
-  
   constructor() { }
-
   ngOnInit() {
   }
 

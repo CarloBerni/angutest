@@ -1,7 +1,7 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div class="divdetails">
     <div style="text-align:center">
-      <span changeText>{{ title }}</span>
+      <span changeText>{{ title | uppercase }}</span>
     </div>
     <img
       width="200"
@@ -50,6 +50,9 @@
           >Angular blog</a
         >
       </h2>
+    </li>
+    <li>
+      <a routerLink = "new-cmp">New component</a>
     </li>
   </ul>
 </div>
