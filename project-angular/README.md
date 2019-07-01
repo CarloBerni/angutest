@@ -1,6 +1,4 @@
-# ProjectAngular
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.
+# angutest
 
 ## Development server
 
@@ -14,14 +12,25 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## clone le repo puis: 
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+npm install 
 
-## Further help
+ng serve
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+# en partant de 0 tu peux :
+
+npm install -g @angular/cli
+
+ng new my-project
+
+cd my-project
+
+ng serve
+
+
+
+
